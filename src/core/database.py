@@ -2,8 +2,9 @@ from datetime import datetime
 import sqlite3
 import os
 import threading
-from src.utils import logger
 from typing import Dict, List, Tuple, Union, Any
+
+from ..utils import logger
 class Database:
     def __init__(self, db_path: str = 'data/stock_predictor.db'):
         os.makedirs(os.path.dirname(db_path), exist_ok=True)

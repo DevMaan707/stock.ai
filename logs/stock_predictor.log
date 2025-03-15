@@ -1,0 +1,54 @@
+2025-03-15 14:33:19,934 - src.utils.logger - INFO - Initializing StockAI with symbols: ['AAPL', 'GOOGL', 'MSFT', 'AMZN'], interval: 30 minutes
+2025-03-15 14:33:19,944 - src.utils.logger - INFO - Database initialized
+2025-03-15 14:33:19,944 - src.utils.logger - INFO - Data manager initialized for 4 symbols
+2025-03-15 14:33:19,944 - src.utils.logger - INFO - Feature engineer initialized
+2025-03-15 14:33:19,944 - src.utils.logger - INFO - Model manager initialized (current version: 0)
+2025-03-15 14:33:19,944 - src.utils.logger - INFO - News provider initialized
+2025-03-15 14:33:19,944 - src.utils.logger - INFO - Sentiment analyzer initialized
+2025-03-15 14:33:19,945 - src.utils.logger - INFO - Recommendation engine initialized
+2025-03-15 14:33:19,945 - src.utils.logger - INFO - Stock prediction system initialized with 4 symbols
+2025-03-15 14:33:19,945 - src.utils.logger - INFO - Starting prediction cycle...
+2025-03-15 14:33:19,945 - src.utils.logger - ERROR - Error in prediction cycle: module 'asyncio' has no attribute 'TaskGroup'
+2025-03-15 14:33:19,945 - src.utils.logger - INFO - Validating previous predictions...
+2025-03-15 14:33:21,402 - src.utils.logger - INFO - Waiting 30 minutes until next prediction cycle...
+2025-03-15 14:39:09,386 - src.utils.logger - INFO - StockAI shutdown complete
+2025-03-15 14:39:18,540 - src.utils.logger - INFO - Initializing StockAI with symbols: ['AAPL', 'GOOGL', 'MSFT', 'AMZN'], interval: 30 minutes
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - Database initialized
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - Data manager initialized for 4 symbols
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - Feature engineer initialized
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - Model manager initialized (current version: 0)
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - News provider initialized
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - Sentiment analyzer initialized
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - Recommendation engine initialized
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - Stock prediction system initialized with 4 symbols
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - Starting prediction cycle...
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - Fetching data for AAPL from AlphaVantage
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - Fetching data for GOOGL from AlphaVantage
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - Fetching data for MSFT from AlphaVantage
+2025-03-15 14:39:18,544 - src.utils.logger - INFO - Fetching data for AMZN from AlphaVantage
+2025-03-15 14:39:18,860 - src.utils.logger - ERROR - No time series data for MSFT: dict_keys(['Information'])
+2025-03-15 14:39:18,879 - src.utils.logger - ERROR - No time series data for GOOGL: dict_keys(['Information'])
+2025-03-15 14:39:19,284 - src.utils.logger - ERROR - No time series data for AAPL: dict_keys(['Information'])
+2025-03-15 14:39:19,371 - src.utils.logger - ERROR - No time series data for AMZN: dict_keys(['Information'])
+2025-03-15 14:39:20,608 - src.utils.logger - INFO - Validating previous predictions...
+2025-03-15 14:39:21,774 - src.utils.logger - INFO - Waiting 30 minutes until next prediction cycle...
+2025-03-15 14:42:31,670 - src.utils.logger - INFO - StockAI shutdown complete
+2025-03-15 14:42:44,156 - src.utils.logger - INFO - Initializing StockAI with symbols: ['AAPL', 'GOOGL', 'MSFT', 'AMZN'], interval: 5 minutes
+2025-03-15 14:42:44,160 - src.utils.logger - INFO - Database initialized
+2025-03-15 14:42:44,160 - src.utils.logger - INFO - Data manager initialized for 4 symbols
+2025-03-15 14:42:44,160 - src.utils.logger - INFO - Feature engineer initialized
+2025-03-15 14:42:44,160 - src.utils.logger - INFO - Model manager initialized (current version: 0)
+2025-03-15 14:42:44,160 - src.utils.logger - INFO - News provider initialized
+2025-03-15 14:42:44,160 - src.utils.logger - INFO - Sentiment analyzer initialized
+2025-03-15 14:42:44,160 - src.utils.logger - INFO - Recommendation engine initialized
+2025-03-15 14:42:44,160 - src.utils.logger - INFO - Stock prediction system initialized with 4 symbols
+2025-03-15 14:42:44,161 - src.utils.logger - INFO - Starting prediction cycle...
+2025-03-15 14:42:44,161 - src.utils.logger - INFO - Fetching data for AAPL from AlphaVantage
+2025-03-15 14:42:44,508 - src.utils.logger - WARNING - AlphaVantage API limit hit: Thank you for using Alpha Vantage! This is a premium endpoint. You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly unlock all premium endpoints
+2025-03-15 14:42:44,509 - src.utils.logger - WARNING - Generating mock data for AAPL
+2025-03-15 14:42:44,525 - src.utils.logger - INFO - Rate limiting: waiting 14.88 seconds
+2025-03-15 14:42:59,410 - src.utils.logger - INFO - Fetching data for GOOGL from AlphaVantage
+2025-03-15 14:42:59,645 - src.utils.logger - WARNING - AlphaVantage API limit hit: Thank you for using Alpha Vantage! This is a premium endpoint. You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly unlock all premium endpoints
+2025-03-15 14:42:59,646 - src.utils.logger - WARNING - Generating mock data for GOOGL
+2025-03-15 14:42:59,652 - src.utils.logger - INFO - Rate limiting: waiting 15.72 seconds
+2025-03-15 14:43:04,594 - src.utils.logger - INFO - StockAI shutdown complete

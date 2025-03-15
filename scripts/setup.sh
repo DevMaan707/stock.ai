@@ -16,6 +16,7 @@ mkdir -p models/checkpoints
 mkdir -p logs
 
 # Initialize database
+export PYTHONPATH=.
 python src/core/database.py
 
 echo "Setup completed successfully!"
